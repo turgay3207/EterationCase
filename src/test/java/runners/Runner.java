@@ -16,11 +16,11 @@ import org.junit.runner.RunWith;
                 "rerun:target/failed_scenarios.txt"
         },
         features = "./src/test/resources/features",
-        glue = {"stepdefinitions"},
+        glue = {"stepdefinitions","hooks"},
         monochrome = true,
         publish = true,
         dryRun = false,
-        tags = "@eteration"
+        tags = "@api"  // api  eteration
 
 )
 public class Runner{
