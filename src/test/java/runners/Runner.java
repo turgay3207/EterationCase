@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
         publish = true,
         dryRun = false,
-        tags = "@api"  // api  eteration
+        tags = "@eteration"  // api ///  eteration
 
 )
 public class Runner{
