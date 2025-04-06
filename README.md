@@ -5,7 +5,7 @@ This project includes UI and API automation tests developed in **Java** using th
 For API testing, we used the **RestAssured** library.
 
 ## ✅ Test Execution
-All tests are run via the `Runner.java` class using Cucumber tags:
+All tests are run via the `Runner.java` class using tags:
 
 - `@eteration` → Runs the **UI test** (Eteration instructor page)
 - `@api` → Runs the **API test** (`/posts` endpoint).
